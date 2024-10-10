@@ -1,0 +1,47 @@
+.header {
+  background-color: transparent; /* Use transparent background to inherit gradient */
+  width: 95%; /* Almost full width to align contents to the edge */
+  margin: 10px; /* Remove any default margins */
+  padding: 20px; /* Adjust as needed */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; /* Align name to the left and items to the right */
+  align-items: center; /* Vertically center within the header */
+  font-size: 20px;
+  color: white;
+  font-family: 'Playfair Display', 'Cinzel', serif; /* Apply this font to all header contents */
+  position: relative; /* Sets the positioning context for absolute positioning within */
+}
+
+.name {
+  font-family: 'Cinzel Decorative', serif; 
+  font-size: 1em; /* Adjust the size for artistic effect */
+  font-weight: bold; /* Apply bold for emphasis */
+  letter-spacing: 1px; /* Adds space between letters for elegance */
+}
+
+.header ul {
+  list-style: none;
+  display: flex;
+}
+
+.header li {
+  margin-left: 1%; /* Space between nav items */
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: block; /* Make the anchor element take up the full li space */
+  padding: 10px; /* Adjust padding for your desired rectangular shape */
+  background-color: transparent; /* Initially transparent */
+
+}
+
+
+.header li:hover a {
+  background-color: #5a0808; /* Dark red background on hover */
+  color: white; /* Text color */
+  border-radius: 8px 8px 0 0; /* Rounded corners on top only */
+}

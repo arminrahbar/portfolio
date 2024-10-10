@@ -1,0 +1,37 @@
+/* src/styles/Footer.css */
+.footer {
+  background-color: #282c34;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer-left {
+ margin-left:20px;
+  text-align: left;
+}
+
+.footer-right { 
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between the icons */
+}
+
+.footer-right a {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 1.5em; /* Icon size */
+}
+
+.footer-right a:hover {
+  color: #a50d0d; /* Change color on hover */
+}
+
+footer p {
+    font-family: 'Playfair Display', 'Cinzel', serif;
+}
