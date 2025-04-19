@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <header className="header">
-      <div className="name">Armin Rabar</div>
+      <div className="name">Armin Rahbar</div>
       <nav>
         <ul>
           <li>
