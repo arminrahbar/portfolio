@@ -1,12 +1,9 @@
 import React from 'react';
 
-
-
 function Resume() {
   return (
     <li className="resume-button">
-      {/* Replace with the URL to your actual resume file */}
-      <a href="/path/to/your/resume.pdf" target="_blank" rel="noopener noreferrer">
+      <a href="/Armin Keshavarz Rahbar - Resume.pdf" rel="noopener noreferrer">
         Resume
       </a>
     </li>
