@@ -1,25 +1,25 @@
 import React from "react";
 import "../styles/Header.css";
-import { Link, useLocation } from "react-router-dom";
-import Resume from "./Resume";
+import { Link} from "react-router-dom";
 
 function Header() {
-  const location = useLocation(); // This hook returns the location object that represents the current URL.
-  const currentPath = location.pathname; // Determine the current route
 
   return (
     <header className="header">
       <div className="name">Armin Rahbar</div>
       <nav>
         <ul>
+
+           {/* Use React Router Links for navigation */}
           <li>
             <Link to="/">Home</Link>
           </li>
+
           <li>
-            <Resume />
+            <Link to="/resume">Resume</Link>
           </li>
 
-          {/* Use React Router Links for navigation */}
+         
           <li>
             <Link to="/projects">Projects</Link>
           </li>
@@ -27,6 +27,7 @@ function Header() {
           <li>
             <Link to="/contact">Contact</Link>
           </li>
+
         </ul>
       </nav>
     </header>
